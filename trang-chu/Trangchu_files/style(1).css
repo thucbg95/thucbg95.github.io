@@ -199,8 +199,8 @@ h3, h4 {
       font-weight: bold; }
   @media screen and (min-width: 768px) {
     #footer .widget_text {
-      width: 40%;
-      transform: translateX(75%); } }
+      width: 60%;
+  transform: translateX(30%);}}
 
 .blog-posts, #archive, #archive-product, #archive-customer, #archive-library {
   background-color: white;
