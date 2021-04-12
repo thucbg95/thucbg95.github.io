@@ -16,7 +16,7 @@ body {
   text-align: justify; }
 
 ul {
-  list-style: none; }
+  list-style: none; } 
 
 a:hover, a:focus {
   text-decoration: none !important; }
@@ -200,7 +200,7 @@ h3, h4 {
   @media screen and (min-width: 768px) {
     #footer .widget_text {
       width: 60%;
-  transform: translateX(30%);}}
+    transform: translateX(30%); } }
 
 .blog-posts, #archive, #archive-product, #archive-customer, #archive-library {
   background-color: white;
