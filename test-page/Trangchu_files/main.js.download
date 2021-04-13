@@ -41,7 +41,7 @@ jQuery(document).ready(function ($) {
                 left: nav.offset().left,
                 width: nav.width()
             });
-			$('.forcefullwidth_wrapper_tp_banner').css('padding-top','160px');
+			$('body').css('margin-top','160px');
 			
             isFixed = true;
 			
@@ -50,7 +50,7 @@ jQuery(document).ready(function ($) {
 
                 position: 'relative'
             });
-			$('.forcefullwidth_wrapper_tp_banner').css('padding-top','0px');
+			$('body').css('margin-top','0px');
             isFixed = false;
 			
         }
