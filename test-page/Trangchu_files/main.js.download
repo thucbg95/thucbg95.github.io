@@ -42,7 +42,7 @@ jQuery(document).ready(function ($) {
                 left: nav.offset().left,
                 width: nav.width()
             });
-			bds.css({    padding-top:'160px' });
+			bds.css({    padding-top:160px });
 			
             isFixed = true;
 			
@@ -51,7 +51,7 @@ jQuery(document).ready(function ($) {
 
                 position: 'relative'
             });
-			bds.css({    padding-top:'0px' });
+			bds.css({   padding-top:0px });
             isFixed = false;
 			
         }
