@@ -42,7 +42,7 @@ jQuery(document).ready(function ($) {
                 width: nav.width()
             });
 			$('.toolbar').css('display','none');
-			$('body').css('margin-top','160px');
+			$('body').css('margin-top','201px');
 			
 			
             isFixed = true;
