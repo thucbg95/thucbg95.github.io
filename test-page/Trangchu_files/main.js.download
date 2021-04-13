@@ -42,17 +42,17 @@ jQuery(document).ready(function ($) {
                 left: nav.offset().left,
                 width: nav.width()
             });
+			bs.css({padding-top: 160)};
             isFixed = true;
-			bs.css({
-			padding-top: 160)};
+			
         } else if (!shouldBeFixed && isFixed) {
             nav.css({
 
                 position: 'relative'
             });
+			bs.css({padding-top: 0)};
             isFixed = false;
-			bs.css({
-			padding-top: 0)};
+			
         }
     });
     $('<div class="border-right"></div>').insertAfter('#main-content h3');
