@@ -66,7 +66,7 @@ img.emoji {
 	background:transparent;
 	padding:10px;
 	margin-left:-10px;margin-top:-10px;
-	box-sizing:content-box;
+	box-sizing:content-box;display:none!important;
 }
 .ares .tp-bullet {
 	width:12px;
@@ -75,11 +75,11 @@ img.emoji {
 	background:rgba(255, 255, 255, 1);
 	border-radius:50%;
 	cursor: pointer;
-	box-sizing:content-box;
+	box-sizing:content-box;display:none!important;
 }
 .ares .tp-bullet:hover,
 .ares .tp-bullet.selected {
-	background:rgba(3, 119, 163, 1);
+	background:rgba(3, 119, 163, 1);display:none!important;
 }
 .ares .tp-bullet-title {
   position:absolute;
@@ -96,7 +96,7 @@ img.emoji {
   transition:transform 0.3s;
   -webkit-transition:transform 0.3s;
   line-height:20px;
-  white-space:nowrap;
+  white-space:nowrap;display:none!important;
 }     
 
 .ares .tp-bullet-title:after {
@@ -108,28 +108,28 @@ img.emoji {
 	content:" ";
     position:absolute;
     right:-10px;
-	top:0px;
+	top:0px;display:none!important;
 }
     
 .ares .tp-bullet:hover .tp-bullet-title{
   visibility:visible;
    transform:translatex(0px);
-  -webkit-transform:translatex(0px);
+  -webkit-transform:translatex(0px);display:none!important;
 }
 
 .ares .tp-bullet.selected:hover .tp-bullet-title {
     background:rgba(3, 119, 163, 1);}
 .ares .tp-bullet.selected:hover .tp-bullet-title:after {
-  border-color:transparent transparent transparent rgba(3, 119, 163, 1);
+  border-color:transparent transparent transparent rgba(3, 119, 163, 1);display:none!important;
 }
 .ares.tp-bullets:hover .tp-bullet-title {
-  visibility:hidden;
+  visibility:hidden;display:none!important;
   
 }
 .ares.tp-bullets:hover .tp-bullet:hover .tp-bullet-title {
     visibility:visible;
     transform:translateX(0px) translatey(0px);
-  -webkit-transform:translateX(0px) translatey(0px);
+  -webkit-transform:translateX(0px) translatey(0px);display:none!important;
 }
 
 
