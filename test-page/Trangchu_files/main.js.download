@@ -23,7 +23,7 @@ jQuery(document).ready(function ($) {
 
     // Stick the #nav to the top of the window
     var nav = $('#header .navbar');
-	var bds = $('.home');
+	var bds = $('#header .forcefullwidth_wrapper_tp_banner');
     var navHomeY = nav.offset().top;
     var isFixed = false;
     var $w = $(window);
@@ -42,6 +42,10 @@ jQuery(document).ready(function ($) {
                 left: nav.offset().left,
                 width: nav.width()
             });
+			bds.css({
+
+                margin-top: 160px
+            });
 			
             isFixed = true;
 			
@@ -50,7 +54,10 @@ jQuery(document).ready(function ($) {
 
                 position: 'relative'
             });
-			
+			bds.css({
+
+                margin-top: 160px
+            });
             isFixed = false;
 			
         }
