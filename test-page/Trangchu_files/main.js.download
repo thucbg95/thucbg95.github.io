@@ -23,7 +23,6 @@ jQuery(document).ready(function ($) {
 
     // Stick the #nav to the top of the window
     var nav = $('#header .navbar');
-	var bds = $('.forcefullwidth_wrapper_tp_banner');
     var navHomeY = nav.offset().top;
     var isFixed = false;
     var $w = $(window);
@@ -42,7 +41,7 @@ jQuery(document).ready(function ($) {
                 left: nav.offset().left,
                 width: nav.width()
             });
-			bds.css("padding-top","160px");
+			$('.forcefullwidth_wrapper_tp_banner').css('padding-top','160px');
 			
             isFixed = true;
 			
@@ -51,7 +50,7 @@ jQuery(document).ready(function ($) {
 
                 position: 'relative'
             });
-			bds.css("padding-top","0px");
+			$('.forcefullwidth_wrapper_tp_banner').css('padding-top','0px');
             isFixed = false;
 			
         }
