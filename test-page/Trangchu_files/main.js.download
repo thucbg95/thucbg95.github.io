@@ -42,7 +42,7 @@ jQuery(document).ready(function ($) {
                 left: nav.offset().left,
                 width: nav.width()
             });
-			bs.css({padding-top: 160px});
+			bs.css({padding-top: 160});
             isFixed = true;
 			
         } else if (!shouldBeFixed && isFixed) {
@@ -50,7 +50,7 @@ jQuery(document).ready(function ($) {
 
                 position: 'relative'
             });
-			bs.css({padding-top: 0px});
+			bs.css({padding-top: 0});
             isFixed = false;
 			
         }
