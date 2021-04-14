@@ -112,7 +112,8 @@ h3, h4 {
     margin-top: 2px; }
   #header .navbar {
     padding: 10px 0; position: fixed;top:0; left:0;border-bottom: 1px solid #ddd;}
-body{padding-top: 75px;}
+body{padding-top: 71px;}
+.toolbar {display:none}
 	}
 
 #header button#searchsubmit.btn.btn-default {
