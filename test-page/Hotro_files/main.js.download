@@ -48,7 +48,7 @@ jQuery(document).ready(function ($) {
 
                 position: 'relative'
             });
-			$('#header .navbar').css('box-shadow', '0px 0px 5px #ddd');
+			$('#header .navbar').css('box-shadow', '0px 0px 0px #ddd');
             isFixed = false;
         }
     });
