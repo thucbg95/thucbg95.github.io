@@ -39,14 +39,16 @@ jQuery(document).ready(function ($) {
                 position: 'fixed',
                 top: 0,
                 left: nav.offset().left,
-                width: nav.width()
+                width: nav.width()}
             });
+			$('#header .navbar').css{('box-shadow','0px 0px 5px #ddd')};
             isFixed = true;
         } else if (!shouldBeFixed && isFixed) {
             nav.css({
 
                 position: 'relative'
             });
+			$('#header .navbar').css{('box-shadow','0px 0px 0px #ddd')};
             isFixed = false;
         }
     });
