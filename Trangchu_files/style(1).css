@@ -309,14 +309,17 @@ body{padding-top: 71px;}
 #sidebar .product_categories ul {
   padding-left: 0; }
 
-#sidebar .product_categories .cat-item {
+#sidebar .product_categories .cat-item{
   padding: 10px;
   background-color: #E3E5E5;
   border-bottom: white solid 1px; }
-  #sidebar .product_categories .cat-item a {
+  #sidebar .product_categories .cat-item abc{
     color: black;
     padding-left: 10px;
     background: url("../img/arrow.png") no-repeat center left; }
+#sidebar .product_categories .cat-item:hover{background-color: #d6d8d8;}
+
+
 
 #sidebar .banner-widget .image {
   width: 100%;
