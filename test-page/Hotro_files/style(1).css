@@ -313,7 +313,7 @@ body{padding-top: 71px;}
   padding: 10px;
   background-color: #E3E5E5;
   border-bottom: white solid 1px; }
-  #sidebar .product_categories .cat-item a {
+  #sidebar .product_categories .cat-item {
     color: black;
     padding-left: 10px;
     background: url("../img/arrow.png") no-repeat center left; }
