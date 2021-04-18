@@ -321,6 +321,10 @@ body{padding-top: 71px;}
 #sidebar .product_categories a {
 color: black;background: url("../img/arrow.png") no-repeat center left;}
 
+  #sidebar .product_categories a .cat-item{
+    color: black;
+    padding-left: 10px;
+    background: url("../img/arrow.png") no-repeat center left; }
 
 
 #sidebar .banner-widget .image {
