@@ -317,6 +317,7 @@ body{padding-top: 71px;}
     color: black;
     padding-left: 10px;
     background: url("../img/arrow.png") no-repeat center left; }
+	.cat-item:hover{background-color: #d6d8d8;}
 
 #sidebar .banner-widget .image {
   width: 100%;
