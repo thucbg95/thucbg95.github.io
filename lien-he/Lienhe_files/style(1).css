@@ -197,11 +197,11 @@ body{padding-top: 71px;}
     #footer .footer ul, #footer .footer li {
       list-style: none; }
     #footer .footer h3.widget-title {
-      margin: 0;
-      margin-bottom: 15px;
-      font-size: 15px;
-      color: #f3e503;
-      font-weight: bold; }
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 22px;
+    color: #f3e503;
+    font-weight: bold; }
   @media screen and (min-width: 768px) {
     #footer .widget_text {
       width: 60%;
