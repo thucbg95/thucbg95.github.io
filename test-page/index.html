@@ -576,6 +576,47 @@ jsFileLocation:"//tolich.vn/wp-content/plugins/revslider/public/assets/js/",
 		</li>
         </div>
     </div>
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "204166423560118");
+      chatbox.setAttribute("attribution", "biz_inbox");
+
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v11.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+	
+	
+	
+	
+	
+	
 
 </footer>
 		<script type="text/javascript">
@@ -596,29 +637,11 @@ var wpcf7 = {"apiSettings":{"root":"https:\/\/tolich.com.vn\/wp-json\/contact-fo
 </script>
 <script type="text/javascript" src="../../../../Trangchu_files/scripts.js.download"></script>
 <script type="text/javascript">document.body.className = document.body.className.replace("siteorigin-panels-before-js","");</script> <!--end body-->
- <script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId            : '204166423560118', // REPLACE IF YOU WANT TO USE YOUR OWN FB APP
-      autoLogAppEvents : true,
-      xfbml            : true,
-      version          : 'v2.11'
-    });
-  };
 
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "https://connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script>
-<div class="fb-customerchat"
- page_id="204166423560118"
- ref="minimized"
- minimized="true">
-</div>
+
+
+
+
 
 
  <!--end html -->
